@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ROL-001",
+    "name": "Admin",
+    "permissions": {
+      "dashboard": ["view"],
+      "products": ["view", "create", "edit", "delete"],
+      "stock": ["view", "create"],
+      "purchases": ["view", "create", "delete"],
+      "sales": ["view", "create", "delete"],
+      "suppliers": ["view", "create", "edit", "delete"],
+      "customers": ["view", "create", "edit", "delete"],
+      "warehouses": ["view", "create", "edit", "delete"],
+      "reports": ["view"],
+      "users": ["view", "create", "edit", "delete"],
+      "roles": ["view", "create", "edit", "delete"]
+    }
+  },
+  {
+    "id": "ROL-002",
+    "name": "Manager",
+    "permissions": {
+      "dashboard": ["view"],
+      "products": ["view", "create", "edit"],
+      "stock": ["view", "create"],
+      "purchases": ["view", "create"],
+      "sales": ["view", "create"],
+      "suppliers": ["view", "create", "edit"],
+      "customers": ["view", "create", "edit"],
+      "warehouses": ["view"],
+      "reports": ["view"],
+      "users": [],
+      "roles": []
+    }
+  },
+  {
+    "id": "ROL-003",
+    "name": "Staff",
+    "permissions": {
+      "dashboard": ["view"],
+      "products": ["view"],
+      "stock": ["view", "create"],
+      "purchases": ["view"],
+      "sales": ["view", "create"],
+      "suppliers": ["view"],
+      "customers": ["view"],
+      "warehouses": ["view"],
+      "reports": [],
+      "users": [],
+      "roles": []
+    }
+  }
+]

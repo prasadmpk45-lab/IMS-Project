@@ -1,0 +1,263 @@
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+}
+
+/* SIDEBAR */
+.layout__sidebar {
+  border-right: 1px solid var(--border);
+  background: #ffffff;
+  padding: 24px 18px;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.layout__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.layout__brand-mark {
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout__brand h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+.layout__brand p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* NAV */
+.layout__nav {
+  display: grid;
+  gap: 6px;
+  /* 🔥 reduced from 10px */
+  padding-top: 18px;
+}
+
+/* Parent (Inventory / People / Management) */
+.layout__nav-parent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  /* 🔥 reduced height */
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+  color: var(--muted);
+  transition: all 0.2s ease;
+}
+
+.layout__nav-parent:hover {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+/* Group container */
+.layout__nav-group {
+  margin-top: 6px;
+  /* 🔥 remove big spacing */
+}
+
+/* Sub menu links */
+.layout__nav-link.sub {
+  padding: 6px 12px 6px 28px;
+  /* 🔥 reduced vertical spacing */
+  font-size: 14px;
+  margin: 0;
+  /* 🔥 remove extra gap */
+}
+
+/* Normal links */
+.layout__nav-link {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 8px 12px;
+  /* 🔥 reduced */
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* Active */
+.layout__nav-link.is-active {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* CONTENT */
+.layout__content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+/* HEADER */
+.layout__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border);
+  background: #ffffff;
+
+  flex-wrap: nowrap;
+  /* ✅ FIX */
+}
+
+/* LEFT TITLE */
+.layout__page-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.layout__page-icon {
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout__header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* RIGHT SIDE (USER + LOGOUT) */
+.layout__header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  flex-wrap: nowrap;
+  /* ❌ removed wrap */
+  white-space: nowrap;
+  /* ✅ prevent breaking */
+  margin-left: auto;
+  /* ✅ push to right */
+}
+
+.layout__user {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-muted);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+
+  white-space: nowrap;
+  /* ✅ prevent line break */
+}
+
+/* BUTTON FIX */
+.button {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* PREVENT SHRINKING */
+.layout__header-actions>* {
+  flex-shrink: 0;
+}
+
+/* MAIN */
+.layout__main {
+  padding: 24px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .layout__sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    position: static;
+    height: auto;
+    overflow-y: visible;
+  }
+
+  .layout__nav {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  /* ✅ KEEP SAME LINE EVEN ON MOBILE */
+  .layout__header {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .layout__main {
+    padding: 18px;
+  }
+}
+
+/* 🔽 Parent (Inventory / People / Management) */
+.layout__nav-parent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+  color: var(--muted);
+  transition: all 0.2s ease;
+}
+
+.layout__nav-parent:hover {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+/* 🔽 Sub menu links */
+.layout__nav-link.sub {
+  padding-left: 28px;
+  font-size: 14px;
+}
+
+/* Optional: smooth expand feel */
+.layout__nav-group {
+  display: grid;
+  gap: 6px;
+}
