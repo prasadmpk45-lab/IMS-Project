@@ -1,0 +1,642 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260504065119_AddProductWithVariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260427120014_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\SuppliersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\SuppliersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\WarehousesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\WarehousesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\ProductVariantController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\ProductVariantController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\ProductVariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\ProductVariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\AttributeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\AttributeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\VariantAttributeValueController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\VariantAttributeValueController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\ProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\ProductVariantCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\VariantAttributeValueDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\VariantAttributeValueDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\VariantAttributeValue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\VariantAttributeValue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\ProductAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\ProductAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\AttributeValue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\AttributeValue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\AttributeDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\AttributeDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\ProductVariantResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\ProductVariantUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\CategoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\CategoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\UnitController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\UnitController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\BrandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Controllers\\BrandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Models\\Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ResetPasswordDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\DTOs\\ResetPasswordDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Migrations\\20260427121016_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMSBackend\\Migrations\\20260427121016_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAwwNcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:00:33.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Product.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Product.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:01:57.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260504065119_AddProductWithVariants.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260504065119_AddProductWithVariants.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260504065119_AddProductWithVariants.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260504065119_AddProductWithVariants.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260504065119_AddProductWithVariants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T06:51:19.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "IMSBackend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:14:04.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv1sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T06:38:15.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WarehousesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\WarehousesController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\WarehousesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\WarehousesController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\WarehousesController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv1UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T06:05:26.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductVariantController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\ProductVariantController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\ProductVariantController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\ProductVariantController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\ProductVariantController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwF0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:05:44.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductVariant.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\ProductVariant.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\ProductVariant.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\ProductVariant.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\ProductVariant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:59:50.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AttributeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\AttributeController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\AttributeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\AttributeController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\AttributeController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:08:39.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VariantAttributeValueController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\VariantAttributeValueController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\VariantAttributeValueController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\VariantAttributeValueController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\VariantAttributeValueController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA8wDQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:17:28.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:01:09.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductVariantCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantCreateDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\ProductVariantCreateDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantCreateDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\ProductVariantCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:02:35.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VariantAttributeValueDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\VariantAttributeValueDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\VariantAttributeValueDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\VariantAttributeValueDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\VariantAttributeValueDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:17:03.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAuwFgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:00:57.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Program.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Program.cs",
+              "RelativeToolTip": "IMSBackend\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:40:52.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Warehouse.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Warehouse.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Warehouse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T06:03:15.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Supplier.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Supplier.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T06:04:07.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VariantAttributeValue.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\VariantAttributeValue.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\VariantAttributeValue.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\VariantAttributeValue.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\VariantAttributeValue.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:16:16.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\ProductAttribute.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\ProductAttribute.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\ProductAttribute.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\ProductAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:07:20.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\User.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:03:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:15:23.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "IMSBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\appsettings.json",
+              "RelativeToolTip": "IMSBackend\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T11:19:28.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:11:55.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IMSBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IMSBackend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T09:07:22.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AttributeValue.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\AttributeValue.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\AttributeValue.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\AttributeValue.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\AttributeValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:29:37.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AttributeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\AttributeDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\AttributeDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\AttributeDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\AttributeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:08:09.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductVariantResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantResponseDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\ProductVariantResponseDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantResponseDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\ProductVariantResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:04:59.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductVariantUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantUpdateDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\ProductVariantUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ProductVariantUpdateDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\ProductVariantUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:02:54.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:02:40.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\UnitController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\UnitController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\UnitController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\UnitController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAIBJwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:50:44.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "IMSBackend\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwDsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:45:24.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Unit.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Unit.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Unit.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:49:32.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Brand.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:44:26.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Category.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Category.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:59:54.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Otp.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Models\\Otp.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Models\\Otp.cs",
+              "RelativeToolTip": "IMSBackend\\Models\\Otp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:06:59.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:11:20.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\DTOs\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\DTOs\\ResetPasswordDto.cs",
+              "RelativeToolTip": "IMSBackend\\DTOs\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:12:18.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260427121016_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Migrations\\20260427121016_InitialCreate.cs",
+              "RelativeDocumentMoniker": "IMSBackend\\Migrations\\20260427121016_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\IMSBACKEND\\IMSBackend\\Migrations\\20260427121016_InitialCreate.cs",
+              "RelativeToolTip": "IMSBackend\\Migrations\\20260427121016_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:10:16.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260427120014_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260427120014_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260427120014_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260427120014_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\IMSBackend\\IMSBackend\\Migrations\\20260427120014_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:00:14.372Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

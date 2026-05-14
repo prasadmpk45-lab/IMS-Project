@@ -1,0 +1,19 @@
+.modal-component {
+  display: grid;
+  gap: 16px;
+}
+
+.modal-component__header {
+  display: grid;
+  gap: 6px;
+}
+
+.modal-component__title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.modal-component__subtitle {
+  margin: 0;
+  color: #64748b;
+}

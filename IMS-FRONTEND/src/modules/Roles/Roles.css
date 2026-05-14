@@ -1,0 +1,22 @@
+.roles-page {
+  gap: 16px;
+}
+
+.roles-matrix__module {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.roles-matrix__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.roles-matrix__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

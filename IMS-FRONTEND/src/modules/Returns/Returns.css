@@ -1,0 +1,7 @@
+.returns-page {
+  gap: 16px;
+}
+
+.returns-page__reason-field {
+  grid-column: 1 / -1;
+}

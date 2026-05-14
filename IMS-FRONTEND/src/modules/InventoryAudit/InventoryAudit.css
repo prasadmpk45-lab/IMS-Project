@@ -1,0 +1,16 @@
+.inventory-audit-page {
+  gap: 16px;
+}
+
+.inventory-audit__toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: end;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.inventory-audit__filter {
+  min-width: 220px;
+}
