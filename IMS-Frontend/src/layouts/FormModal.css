@@ -1,0 +1,39 @@
+.form-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+  padding: 32px 16px;
+  background: rgba(15, 23, 42, 0.24);
+}
+
+.form-modal__dialog {
+  width: min(960px, 100%);
+  position: relative;
+  padding-top: 52px;
+}
+
+.form-modal__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.form-modal__content .card {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .form-modal {
+    padding: 16px 12px;
+  }
+
+  .form-modal__dialog {
+    width: 100%;
+    padding-top: 48px;
+  }
+}
